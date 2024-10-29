@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-.contenedor {   
+.contenedor {
     height: 100vh;
     width: 100vw;
     margin: 0%;
@@ -39,4 +39,60 @@ body {
 .portada-ropa {
     height: 100vh;
     width: 100vw;
+}
+
+.ropa-disp {
+    display: grid;
+    width: 90%;
+    gap: 3em;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.subtitulo2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.ropa2 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(150, 199, 199);
+}
+
+.ropa3 {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+
+.img-ropa {
+    height: 300px;
+    width: 300px;
+    box-shadow: 1px 1px 20px white;
+}
+
+.precios {
+    color: aliceblue;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    width: 800px;
+    height: 430px;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: 5s ease;
+    opacity: 8;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
 }
