@@ -35,7 +35,7 @@ header {
     width: 120px;
     height: 80px;
     float: left;
-    padding: 0px;
+    padding: 10px;
     margin-left: 0;
   
 }
@@ -72,6 +72,19 @@ nav {
   }
   .section-portada {
     position: relative;
+}
+.carrito-icono{
+    width: 50px;
+  height: 50px;
+  margin: auto;
+}
+.carrito-icono-img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 30%;
+    background-color: rgb(255, 255, 255)
 }
 .title {
     text-align: center;
@@ -119,9 +132,12 @@ nav {
   }
   
   .redes-sociales img {
-    width: 40px;
-    height: 40px;
-    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    background-color: #ffffff15;
+    border-radius:100% ;
+    margin: 0px;
+    margin-top: 20px;
   }
 
 .ropa-disp {
