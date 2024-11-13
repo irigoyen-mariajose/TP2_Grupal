@@ -211,26 +211,28 @@ section img:hover {
     margin-top: 110px;
   }
   
-  .card {
+  .shopping {
   margin: 30px;
   padding: 30px 40px;
   border-radius: 5px;
   background-color: rgb(247, 246, 246);
-  
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   }
-  
-  
-  .card:hover {
+
+  .shopping:hover {
     box-shadow: 5px 8px 16px 10px rgba(0,0,0,0.2);
     border-radius: 10px; 
   }
   
-  .card .imagen {
+  .imagen {
     width: 180px;
     height: 180px;
     border-radius: 2px;
   }
+  .precios-shop{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
